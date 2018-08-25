@@ -1,0 +1,52 @@
+{
+  "name": "gatsby-plugin-html-payload-size",
+  "version": "0.0.1",
+  "description": "Show and analyzes your initial HTML payloads. Warns you if your HTML files get to big.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint gatsby-node.js",
+    "format": "prettier --write gatsby-node.js"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "webpack",
+    "bundle"
+  ],
+  "author": "Benedikt Rötsch <info@benedikt-roetsch.de>",
+  "bugs": {
+    "url": "https://github.com/axe312ger/gatsby-plugin-html-payload-size/issues"
+  },
+  "homepage": "https://github.com/axe312ger/gatsby-plugin-html-payload-size/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axe312ger/gatsby-plugin-html-payload-size.git"
+  },
+  "license": "MIT",
+  "files": [
+    "readme.md",
+    "gatsby-node.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-table3": "^0.5.1",
+    "gzip-size": "^5.0.0",
+    "pretty-bytes": "^5.1.0",
+    "recursive-readdir": "^2.2.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "prettier": "^1.14.2"
+  }
+}
